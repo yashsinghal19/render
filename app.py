@@ -6,7 +6,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the trained model and features
-with open('C:/Users/User/Desktop/GreatLakes Academic/Term 5/Supply Chain Lab/LaptopPrice/laptop_price_predictor.pkl', 'rb') as file:
+with open('models/laptop_price_predictor.pkl', 'rb') as file:
     model_data = pickle.load(file)
 
 # Extract the model, feature names, and categorical options
